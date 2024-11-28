@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <fieldset  style="background-color: blue; color: aliceblue;">
+        <form action="#" method="get">
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            <label for="name">First Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name"><span> (max 30 characters a-z and A-Z)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="l-name">Last Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="l-name" id="l-name"><span> (max 30 characters a-z and A-Z)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="birth">Date of Birth:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="birth" multiple="3" placeholder="Date" min="1" max="30">
+                            <input type="number" id="birth" multiple="3" placeholder="Month" min="1" max="12">
+                            <input type="number" id="birth" multiple="3" placeholder="Year" min="1900" max="2100"
+                                pattern="1900-1901">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Email id">Email id:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="Email id" id="Email id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Phone Number">Phone Number:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="Phone Number" id="Phone Number" pattern="(1-9)"><span> (10 digital
+                                number)</span>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="ge">Gender:</label>
+                        </td>
+                        <td>
+                            <label for="gend">Mail</label>
+                            <input type="radio" name="m" id="gend" value="m">
+                            <label for="gen">Femail</label>
+                            <input type="radio" name="m" id="gen" value="f">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Add">Address:</label>
+                        </td>
+                        <td>
+                            <textarea name="Add" id="Add"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">City:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="city" id="city"><span> (max 30 characters a-z and A-Z)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pin">Pin code:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="pin" id="pin" max="6"><span> (6 digit number)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="state">State:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="state" id="state"><span> (max 30 characters a-z and A-Z)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="coun">Country:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="coun" id="coun" placeholder="pakistan">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hob">Hobbies:</label>
+                        </td>
+                        <td>
+                            <label for="dra">Drawing</label>
+                            <input type="checkbox" name="dra" id="dra">
+                            <label for="si">Shnging</label>
+                            <input type="checkbox" name="si" id="si">
+                            <label for="da">Dancing</label>
+                            <input type="checkbox" name="da" id="da">
+                            <label for="sa">Sketching</label>
+                            <input type="checkbox" name="sa" id="sa">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- emty -->
+                        </td>
+                        <td>
+                            <label for="oth">Others</label>
+                            <input type="checkbox" name="oth" id="oth">
+                            <input type="text" name="oth" id="oth">
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <label for="Qua">Qualification:</label>
+                        </td>
+                        <td>
+                            <!-- new table -->
+                            <fieldset>
+                                <table>
+                                    <tr>
+                                        <th>Sl.no.</th>
+                                        <th>Examination</th>
+                                        <th>Board</th>
+                                        <th>Precentation</th>
+                                        <th>Year of Passing</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <th>Class X</th>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <th>Class XII</th>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <th>Graduation</th>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <th>Master</th>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                        <td><input type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!-- emty -->
+                                        </td>
+                                        <td>
+                                            <!-- emty -->
+                                        </td>
+                                        <th>
+                                            (10 chart max)
+                                        </th>
+                                        <th>
+                                            (Upto 2 decimal)
+                                        </th>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Cou">Courses</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Cou">Applied for</label>
+                        </td>
+                        <td>
+                            <label for="BSA">BSA</label>
+                            <input type="radio" name="ap" id="BSA">
+                            <label for="B.Com">B.Com</label>
+                            <input type="radio" name="ap" id="B.Com">
+                            <label for="B.Sc">B.Sc</label>
+                            <input type="radio" name="ap" id="B.Sc">
+                            <label for="B.A">B.A</label>
+                            <input type="radio" name="ap" id="B.A">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- emty -->
+                        </td>
+                        <td style="direction: rtl;">
+                            <input type="reset" value="reset">
+                            <input type="submit" value="sumit">
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>

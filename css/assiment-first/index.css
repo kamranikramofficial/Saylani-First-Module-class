@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table tr td {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.w{
+    background-color: aliceblue;
+}
+.b{
+background-color: rgba(0, 0, 0, 0.521);
+}
+body{
+    background-color: gray;
+    margin: 0% 20% 1% 30%;
+}
+h1{
+    margin: 0% 20% 1% 30%;
+
+}
+.yes{
+  
+text-align: center;
+}
+.y{
+    color: blue;
+}
+.n{
+    color: rgb(240, 6, 6);
+}
+img:hover{
+    transform: scale(2,2);
+}
+img{
+    width:40%;
+    height:40%;
+    transition: 0.4;
+}
+td{
+    overflow: hidden;
+}
+.n,.y{
+    width:90%;
+    height:90%;
+    transition: 0.4;
+}
+a:hover{
+    transform: scale(2,2);
+}
+.n a{
+    color: red;
+  text-decoration: none;
+}
+.y a{
+    color: rgb(55, 0, 255);
+    text-decoration: none;
+
+}
