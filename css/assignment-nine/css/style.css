@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.h1{
+    height: 100vh;
+}
+.ms-c-5{
+    margin-left:10vw;
+    margin-top: 1rem;
+}
+:root{
+    --gray: #171718;
+    --whith: #fefeff;
+
+}
+.Secondary{
+    color: var(--gray);
+}
+.Secondary:hover{
+    color: var(--gray);
+
+}
+.Secondary:active{
+    color: var(--gray);
+
+}
+.Secondary:visited{
+    color: var(--gray);
+
+}
+.font-c-c{
+    color: var(--whith);
+}
