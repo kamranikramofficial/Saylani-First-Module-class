@@ -1,0 +1,18 @@
+.bg-cus-top{
+    background-color: #0e2737;
+}
+.h-cus-t{
+    height: 7vh;
+}
+.fo-co-b-cus{
+    color: rgb(255, 255, 255);
+}
+.fo-co-b-cus:hover{
+     color: gray;
+}
+.ms-c-e{
+    margin-right:7rem;
+}
+.ms-c-s{
+    margin-left:7rem;
+}
