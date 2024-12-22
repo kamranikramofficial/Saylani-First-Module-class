@@ -24,10 +24,10 @@
     background-blend-mode: color;
     opacity:0.3;
 }
-/* .b-c-ad{
+.b-c-ad{
     background-color: rgba(0, 0, 0, 0.719);
     z-index: 1;
-} */
+}
 .b-img-c{
     background-image: url(../img/18.jpg.webp);
     height: 90vh;
@@ -39,7 +39,7 @@
     height:70vh;
 }
 .h1-c-t-sli{
-    position: relative;
+    position: aab;
     z-index: 19;
     color: white;
     font-size: medium;
