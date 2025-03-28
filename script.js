@@ -110,7 +110,7 @@ let datahtmlarr = [
         description: "Write a latter with simple html tag",
         liveLink: "https://saylani-first-module-class.vercel.app/html/assignment-seven/",
         codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/html/assignment-seven"
-    },
+    }
 
 ];
 
@@ -135,26 +135,88 @@ datahtmlarr.forEach(item => {
 
 //css link
 let forjasoncss = document.getElementById("jasoncss");
-datahtmlarrcss[
+
+let datahtmlarrcss = [ 
     {
-
+        img: 'img/css-1.png',
+        no: "1",
+        title: "CSS First Assignment",
+        description: "chess game front ui",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-first/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-first"
+    },
+    {
+        img: 'img/css-2.png',
+        no: "2",
+        title: "CSS Second Assignment",
+        description: "FORM with amizing UI",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-second/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-second"
+    },
+    {
+        img: 'img/css-3.png',
+        no: "3",
+        title: "CSS Third Assignment",
+        description: "First landing page desing",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-third/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-third"
+    },
+    {
+        img: 'img/css-4.png',
+        no: "4",
+        title: "CSS Fourth Assignment",
+        description: "Facebook login page clone",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-fourth/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-fourth"
+    },
+    {
+        img: 'img/css-5.png',
+        no: "5",
+        title: "CSS Fifth Assignment",
+        description: "First resturent webside desing with animation",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-fifth/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-fifth"
+    },
+    {
+        img: 'img/css-6.png',
+        no: "6",
+        title: "CSS Sixth Assignment",
+        description: "My first personal dome portfolio ",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-six/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-six"
+    },
+    {
+        img: 'img/css-7.png',
+        no: "7",
+        title: "CSS Seventh Assignment",
+        description: "one more webside for practise with animation of hover",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-seven/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-seven"
+    },
+    {
+        img: 'img/css-8.png',
+        no: "8",
+        title: "CSS Seventh Assignment",
+        description: "Create a Webside for using bootstrap css and Html",
+        liveLink: "https://saylani-first-module-class.vercel.app/css/assignment-eight/",
+        codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/css/assignment-eight"
     }
-]
-datahtmlarrcss.forEach(itemcss => {
-forjasoncss.innerHTML += `
-<div class="card">
-        <div class="card-image">
-            <img src="${itemcss.img}" alt="Assignment ${itemcss.no} Preview">
-        </div>
-        <div class="card-content">
-            <h3>${itemcss.title}</h3>
-            <p>${itemcss.description}</p>
-            <div class="card-links">
-                <a href="${itemcss.liveLink}" class="btn primary"><i class="fas fa-eye"></i> Live Preview</a>
-                <a href="${itemcss.codeLink}" class="btn secondary"><i class="fas fa-code"></i> View Code</a>
-            </div>
-        </div>
-    </div>
-    `;
-})
+];
 
+    datahtmlarrcss.forEach(itemcss => {
+        forjasoncss.innerHTML += `
+            <div class="card">
+                <div class="card-image">
+                    <img src="${itemcss.img}" alt="Assignment ${itemcss.no} Preview">
+                </div>
+                <div class="card-content">
+                    <h3>${itemcss.title}</h3>
+                    <p>${itemcss.description}</p>
+                    <div class="card-links">
+                        <a href="${itemcss.liveLink}" class="btn primary"><i class="fas fa-eye"></i> Live Preview</a>
+                        <a href="${itemcss.codeLink}" class="btn secondary"><i class="fas fa-code"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
