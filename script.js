@@ -5,7 +5,7 @@ const tabContents = document.querySelectorAll('.tab-content');
 themeToggle.addEventListener('click', () => {
     const body = document.body;
     const icon = themeToggle.querySelector('i');
-    
+
     if (body.classList.contains('light-theme')) {
         body.classList.remove('light-theme');
         body.classList.add('dark-theme');
@@ -23,9 +23,9 @@ tabButtons.forEach(button => {
     button.addEventListener('click', () => {
         tabButtons.forEach(btn => btn.classList.remove('active'));
         tabContents.forEach(content => content.classList.remove('active'));
-        
+
         button.classList.add('active');
-        
+
         const tabId = button.getAttribute('data-tab');
         document.getElementById(tabId).classList.add('active');
     });
@@ -50,7 +50,10 @@ function loadThemePreference() {
         icon.classList.add('fa-moon');
     }
 }
+
 themeToggle.addEventListener('click', saveThemePreference);
+let forjason = document.getElementById("jsjason");
+//html link
 let datahtmlarr = [
     {
         img: 'img/html-1.png',
@@ -108,10 +111,9 @@ let datahtmlarr = [
         liveLink: "https://saylani-first-module-class.vercel.app/html/assignment-seven/",
         codeLink: "https://github.com/kamranikramofficial/Saylani-First-Module-class/tree/main/html/assignment-seven"
     },
-   
+
 ];
 
-let forjason = document.getElementById("jsjason");
 
 datahtmlarr.forEach(item => {
     forjason.innerHTML += `
@@ -125,6 +127,31 @@ datahtmlarr.forEach(item => {
             <div class="card-links">
                 <a href="${item.liveLink}" class="btn primary"><i class="fas fa-eye"></i> Live Preview</a>
                 <a href="${item.codeLink}" class="btn secondary"><i class="fas fa-code"></i> View Code</a>
+            </div>
+        </div>
+    </div>
+    `;
+})
+
+//css link
+let forjasoncss = document.getElementById("jasoncss");
+datahtmlarrcss[
+    {
+
+    }
+]
+datahtmlarrcss.forEach(itemcss => {
+forjasoncss.innerHTML += `
+<div class="card">
+        <div class="card-image">
+            <img src="${itemcss.img}" alt="Assignment ${itemcss.no} Preview">
+        </div>
+        <div class="card-content">
+            <h3>${itemcss.title}</h3>
+            <p>${itemcss.description}</p>
+            <div class="card-links">
+                <a href="${itemcss.liveLink}" class="btn primary"><i class="fas fa-eye"></i> Live Preview</a>
+                <a href="${itemcss.codeLink}" class="btn secondary"><i class="fas fa-code"></i> View Code</a>
             </div>
         </div>
     </div>
