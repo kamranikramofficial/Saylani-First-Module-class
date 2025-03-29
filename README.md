@@ -1,40 +1,31 @@
-<header>
-  <center>
-        <h1>SMIT Assignments</h1>
-  </center>
-        <p>A collection of completed HTML and CSS assignments from the Saylani Mass IT Training (SMIT) program.</p>
-</header>
-<main>
-        <section id="about">
-            <h2>About This Repository</h2>
-            <p>This repository contains a comprehensive collection of HTML and CSS assignments completed during my time at SMIT. The assignments showcase my skills and knowledge in building visually appealing web pages.</p>
-        </section>
-        <section id="html-assignments">
-            <h2>HTML Assignments</h2>
-            <ul>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-first/">Assignment 1:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-second/">Assignment 2:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-third/">Assignment 3:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-fourth/">Assignment 4:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-fifth/">Assignment 5:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-six/">Assignment 6:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/html/assignment-seven/">Assignment 7:</a></li>
-            </ul>
-        </section>
-        <section id="css-assignments">
-            <h2>CSS Assignments</h2>
-            <ul>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-first/">Assignment 1:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-second/">Assignment 2:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-third/">Assignment 3:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-fourth/">Assignment 4:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-fifth/">Assignment 5:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-six/">Assignment 6:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-seven/">Assignment 7:</a></li>
-                <li><a href="https://saylani-first-module-class.vercel.app/css/assignment-eight/">Assignment 8:</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 kamran ikram</p>
-    </footer>
+# SMIT-First-Module-class-Assignments
+
+A collection of completed HTML and CSS assignments from the (SMIT) program.
+## About This Repository:   
+This repository showcases a collection of HTML and CSS assignments completed during my learning journey at SMIT. Each assignment reflects my growing expertise in crafting well-structured, visually engaging, and responsive web pages, demonstrating a strong foundation in front-end development.
+
+
+
+## 🚀 About Me
+Hi! 👋 I'm a passionate front-end web developer exploring HTML, CSS, and through hands-on projects. This repository showcases my learning journey, featuring assignments and projects that strengthen my skills in UI design, development, and best coding practices.
+
+#### What I’m Learning:
+User-Friendly UI  
+Frontend Development Best Practices   
+Version Control with Git & GitHub             
+## 🛠 Skills
+- JavaScript (ES6, ES5) 
+- Bootstrap                           
+- HTML 
+- CSS...
+
+
+## 🔗 Links
+[![webside](https://img.shields.io/badge/webside-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://saylani-first-module-class.vercel.app/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamranikramofficial/)
+
+## Authors
+
+[@kamranikramofficial](https://www.github.com/kamranikramofficial)
+
