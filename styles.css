@@ -258,13 +258,21 @@ footer {
 /* Responsive styles */
 @media (max-width: 768px) {
     .tabs {
-        flex-direction: column;
         border-bottom: none;
     }
     
     .tab-btn {
         border-bottom: 1px solid var(--secondary-color);
         text-align: left;
+        font-size:10px;
+
+    }
+    .secondary {
+        margin-top: 7px;
+
+    }
+    .card-links{
+        display: block;
     }
     
     .tab-btn:after {
