@@ -6,8 +6,8 @@ This repository showcases a collection of HTML and CSS assignments completed dur
 
 
 
-## 🚀 About Me
-Hi! 👋 I'm a passionate front-end web developer exploring HTML, CSS, and through hands-on projects. This repository showcases my learning journey, featuring assignments and projects that strengthen my skills in UI design, development, and best coding practices.
+##  About Me
+Hi!  I'm a passionate front-end web developer exploring HTML, CSS, and through hands-on projects. This repository showcases my learning journey, featuring assignments and projects that strengthen my skills in UI design, development, and best coding practices.
 
 #### What I’m Learning:
 User-Friendly UI  
@@ -20,7 +20,7 @@ Version Control with Git & GitHub
 - CSS...
 
 
-## 🔗 Links
+## Links
 [![webside](https://img.shields.io/badge/webside-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://saylani-first-module-class.vercel.app/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamranikramofficial/)
